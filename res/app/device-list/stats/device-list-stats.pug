@@ -19,3 +19,8 @@
       .icon.fa.fa-user.visitors(ng-class='{"fa-trophy": $root.adminMode, "fa-user": !$root.adminMode}')
       span(class='counter', data-type='using') 0
     .text(ng-bind='currentUser.name')
+  .col-xs-3
+    .number.color-red
+      .icon.fa.fa-user.visitors(ng-class='{"fa-trophy": $root.adminMode, "fa-user": !$root.adminMode}')
+      span(ng-href='/c', class='counter', data-type='using') 0
+    .text(ng-translate) CTRL
