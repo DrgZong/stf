@@ -4,11 +4,11 @@
       .icon.fa.fa-globe.visitors
       span(class='counter', data-type='total') 0
     .text(translate) Total Devices
-  .col-xs-3(ng-href='/c')
+  .col-xs-3
     .number.color-green
       .icon.fa.fa-check.visitors
       span(class='counter', data-type='usable') 0
-    .text(translate) CTRL
+    a(class='text', translate, ng-href='/c') CTRL
   .col-xs-3
     .number.color-pink
       .icon.fa.fa-users.visitors
