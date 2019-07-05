@@ -506,7 +506,8 @@ msgstr "高度"
 #: app/menu/menu.html:1
 msgid "Help"
 msgstr "帮助"
-
+msgid "CTRL"
+msgstr "CMD控制"
 #: app/control-panes/device-control/device-control.html:1
 msgid "Hide Screen"
 msgstr "隐藏屏幕"

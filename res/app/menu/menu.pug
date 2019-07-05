@@ -22,3 +22,7 @@
         a(ng-href='/#!/help', accesskey='6')
           i.fa.fa-question-circle.fa-fw
           | {{ "Help" | translate }}
+      li(ng-show='!$root.basicMode')
+        a(ng-href='/c', accesskey='6')
+          i.fa.fa-question-circle.fa-fw
+          | {{ "CTRL" | translate }}
